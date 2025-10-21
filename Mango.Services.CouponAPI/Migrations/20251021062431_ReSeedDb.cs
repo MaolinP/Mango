@@ -7,7 +7,7 @@
 namespace Mango.Services.CouponAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class InitializeDb : Migration
+    public partial class ReSeedDb : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
