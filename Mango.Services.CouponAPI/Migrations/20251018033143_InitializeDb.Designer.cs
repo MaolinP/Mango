@@ -10,9 +10,9 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Mango.Services.CouponAPI.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251016063802_InitializeCouponDb")]
-    partial class InitializeCouponDb
+    [DbContext(typeof(AppDbContext))]
+    [Migration("20251018033143_InitializeDb")]
+    partial class InitializeDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
